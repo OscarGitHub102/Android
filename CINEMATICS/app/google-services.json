@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "32981967319",
+    "project_id": "cinematics-210ae",
+    "storage_bucket": "cinematics-210ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32981967319:android:c3389fb1b6ad3728726b92",
+        "android_client_info": {
+          "package_name": "com.example.cinematics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32981967319-4p3antpfjp96pqjc9v8irst2k78urn4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinematics",
+            "certificate_hash": "f8d3a6d150e31c39dd358e580ec7557759455b61"
+          }
+        },
+        {
+          "client_id": "32981967319-jq7pfnfni2cirp433f8qo7cv331qt01l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinematics",
+            "certificate_hash": "02d0d190abcabda3c7ad116ff098ba32d94a2d28"
+          }
+        },
+        {
+          "client_id": "32981967319-qv490t9ndvo18moj2b3r4gpcns8o4vih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCavP4r1y3ZAVBnZ15ia8IFwHiJ8lJlG_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32981967319-60l3nphigpojeeaq5mdc7tbk5l9jjvu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

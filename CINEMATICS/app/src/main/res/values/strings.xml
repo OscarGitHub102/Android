@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- APP -->
+
+    <string name="app_name">CINEMATICS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- SPLASH -->
+
+    <string name="authors">Óscar Sánchez\nAlex Sereno</string>
+
+    <!-- LOGIN -->
+
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="log_in">INICIAR SESIÓN</string>
+    <string name="log_in_google">INICIAR SESIÓN CON GOOGLE</string>
+    <string name="sign_in">REGISTRARSE</string>
+    <string name="default_web_client_id">32981967319-4p3antpfjp96pqjc9v8irst2k78urn4u.apps.googleusercontent.com</string>
+
+    <!-- SIGN IN -->
+
+    <string name="register">REGISTRO</string>
+    <string name="sign_in_text">¡¡¡ Complete los siguientes campos para formar parte de Cinematics !!!</string>
+    <string name="sign_in_text2">(Los datos se almacenarán en nuestra base de datos)</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="confirm_data">CONFIRMAR DATOS</string>
+
+    <!-- HOME -->
+
+    <string name="about_us">SOBRE NOSOTROS</string>
+    <string name="about_us_text">En Cinematics, creemos que el cine no es solo entretenimiento, sino un arte que se debe admirar y disfrutar.\n\nPor eso, nuestra aplicación te conecta con la magia del cine, ofreciéndote una experiencia única.</string>
+    <string name="films_text">¡Elige entre recordar grandes clásicos o impresionarte con nuevos títulos!</string>
+    <string name="films">PELÍCULAS</string>
+    <string name="food_text">¡Comida para todos los públicos!</string>
+    <string name="food">COMIDA</string>
+    <string name="discounts_text">¡Descuentos para una experiencia más accesible!</string>
+    <string name="discounts">DESCUENTOS</string>
+    <string name="social_media">REDES SOCIALES</string>
+
+    <!-- FILMS -->
+
+    <string name="director">Director:</string>
+    <string name="genres">Géneros principales:</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="casting">Reparto</string>
+    <string name="reviews">Reseñas</string>
+
+    <!-- DISCOUNTS -->
+
+    <string name="promotions">PROMOCIONES</string>
+    <string name="initial_promotions">Contamos con una gran variedad de ofertas para todo tipo de gustos y carteras.\n\nDesde las más clásicas hasta las más originales que estamos seguros de que te encantarán.</string>
+    <string name="classic">Combo Clásico</string>
+    <string name="classic_text">¿Eres un nostálgico del cine?\nDisfruta de la promoción más pedida en todo el mundo</string>
+    <string name="classic_snacks">Cubo de Palomitas / Nachos</string>
+    <string name="classic_drinks">Refresco de cola /\nRefresco de naranja /\n Refresco de limón</string>
+    <string name="classic_price">PRECIO: 12€</string>
+    <string name="fitness">Combo Fitness</string>
+    <string name="fitness_text">Para aquellas personas que piensan que ir al cine\nsupone un exceso de calorías</string>
+    <string name="fitness_drinks">Botella de agua</string>
+    <string name="fitness_desserts">Plátano / Manzana</string>
+    <string name="fitness_price">PRECIO: 7.5€</string>
+    <string name="nuts">Combo Seco</string>
+    <string name="nuts_text">Los amantes de los frutos secos también tienen\neste combo ideal para disfrutar de una buena película</string>
+    <string name="nuts_snacks">Cacahuetes salados / \nBolsa de anacardos</string>
+    <string name="nuts_drinks">Refresco de cola /\nRefresco de naranja /\n Refresco de limón</string>
+    <string name="nuts_price">PRECIO: 10€</string>
+    <string name="menu">Combo Menú</string>
+    <string name="menu_text">Menú para aquellos que quieran disfrutar de la película\ncon la tripa llena</string>
+    <string name="menu_snacks">Bolsa de patatas / \nNachos /\nBolsa de ganchitos</string>
+    <string name="menu_drinks">Bebida gaseosa con limón /\nTé de limón</string>
+    <string name="menu_desserts">Crepes / Porción de tarta</string>
+    <string name="menu_price">PRECIO: 12€</string>
+    <string name="celebration">Combo Celebración</string>
+    <string name="celebration_text">Para todos los que desea pasar una agradable velada\nsin importar la edad</string>
+    <string name="celebration_snacks">Bolsa de chuches</string>
+    <string name="celebration_drinks">Champín</string>
+    <string name="celebration_desserts">Trufas de chocolate /\nCaja de bombones</string>
+    <string name="celebration_price">PRECIO: 20€</string>
+    <string name="roco">Combo Roco</string>
+    <string name="roco_text">Si estás cansado de estar todo el día programando,\ntómate un descanso con este combo diseñado para ti</string>
+    <string name="roco_snacks">Cacahuetes salados\n+\nBolsa de chuches</string>
+    <string name="roco_drinks">Té de limón</string>
+    <string name="roco_desserts">Tarrina de helado</string>
+    <string name="roco_price">PRECIO: 18€</string>
+    <string name="codes">CÓDIGOS DE\nDESCUENTO</string>
+    <string name="codes_text">(No se podrán aplicar a promociones ya activas)</string>
+    <string name="codes_text2">También hay disponibles varios códigos promocionales para abaratar la experiencia.\n¿Cuáles serán?</string>
+
+    <!-- RESERVATION -->
+
+    <string name="select_film">SELECCIONE UNA PELÍCULA</string>
+    <string name="film_selected">Nombre película</string>
+    <string name="select_food">SELECCIONE LA COMIDA</string>
+    <string name="snacks">APERITIVOS</string>
+    <string name="drinks">BEBIDAS</string>
+    <string name="desserts">POSTRES</string>
+    <string name="time">Fecha de reserva</string>
+    <string name="reserve">RESERVAR</string>
+
+    <!-- SUMMARY RESERVATION -->
+
+    <string name="summary">DETALLES RESERVA</string>
+    <string name="code">Código:</string>
+    <string name="code_hint">Código promocional</string>
+    <string name="back">VOLVER</string>
+    <string name="confirm">CONFIRMAR</string>
+
+    <!-- LOCATION -->
+
+    <string name="address">Dirección: C/ de Blas Cabrera, 90, Latina, 28044 Madrid</string>
+    <string name="emt">EMT (seleccione):</string>
+
+    <!-- MOBILE_NAVIGATION -->
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_films">Películas</string>
+    <string name="menu_film_data">Datos de película</string>
+    <string name="menu_food">Comida</string>
+    <string name="menu_discounts">Descuentos</string>
+    <string name="menu_reservation">Reserva</string>
+    <string name="menu_location">Ubicación</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_logout">Desconectarse</string>
+
+</resources>

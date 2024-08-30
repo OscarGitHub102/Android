@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_films"
+            android:icon="@drawable/icon_film"
+            android:title="@string/menu_films" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/icon_food"
+            android:title="@string/menu_food" />
+        <item
+            android:id="@+id/nav_discounts"
+            android:icon="@drawable/icon_discount"
+            android:title="@string/menu_discounts" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:icon="@drawable/icon_reservation"
+            android:title="@string/menu_reservation" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/icon_location"
+                    android:title="@string/menu_location" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/icon_share"
+                    android:title="@string/menu_share" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Otros">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_disconnect"
+                    android:icon="@drawable/icon_disconnect"
+                    android:title="@string/menu_logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

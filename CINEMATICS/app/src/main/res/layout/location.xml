@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/address"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/emt"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        map:layout_constraintStart_toStartOf="@+id/direction"
+        map:layout_constraintTop_toBottomOf="@+id/direction" />
+
+    <ImageView
+        android:id="@+id/bus155"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/emt_bus155"
+        map:layout_constraintStart_toEndOf="@+id/emt"
+        map:layout_constraintTop_toBottomOf="@+id/direction"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/bus34"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/emt_bus34"
+        map:layout_constraintStart_toEndOf="@+id/bus155"
+        map:layout_constraintTop_toBottomOf="@+id/direction"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/metro5"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/emt_metro5"
+        map:layout_constraintStart_toEndOf="@+id/bus34"
+        map:layout_constraintTop_toBottomOf="@+id/direction"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/cercanias5"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/emt_cercanias5"
+        map:layout_constraintStart_toEndOf="@+id/metro5"
+        map:layout_constraintTop_toBottomOf="@+id/direction"
+        android:importantForAccessibility="no" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        map:cameraZoom="12"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="@+id/bus34"
+        map:layout_constraintTop_toBottomOf="@+id/bus34"
+        map:uiRotateGestures="true"
+        map:uiZoomControls="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

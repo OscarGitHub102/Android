@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cinematics.Fragments.home.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home" />
+
+    <fragment
+        android:id="@+id/nav_films"
+        android:name="com.example.cinematics.Fragments.films.Films"
+        android:label="@string/menu_films"
+        tools:layout="@layout/films" >
+        <action
+            android:id="@+id/action_nav_films_to_filmData"
+            app:destination="@id/filmData"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/filmData"
+        android:name="com.example.cinematics.Fragments.films.FilmData"
+        android:label="@string/menu_film_data" >
+        <action
+            android:id="@+id/action_filmData_to_nav_films"
+            app:destination="@id/nav_films" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_food"
+        android:name="com.example.cinematics.Fragments.food.Food"
+        android:label="@string/menu_food"
+        tools:layout="@layout/food" />
+
+    <fragment android:id="@+id/nav_discounts"
+        android:name="com.example.cinematics.Fragments.discounts.Discounts"
+        android:label="@string/menu_discounts" />
+
+    <fragment
+        android:id="@+id/nav_reservation"
+        android:name="com.example.cinematics.Fragments.reservation.Reservations"
+        android:label="@string/menu_reservation"
+        tools:layout="@layout/reservation" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.cinematics.Fragments.location.Location"
+        android:label="@string/menu_location" />
+
+</navigation>
