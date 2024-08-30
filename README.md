@@ -1,8 +1,8 @@
 > [!NOTE]  
-> * Cinematics
+> * _Cinematics_
 >
 >   Android Studio project to manage a film reservation app with the use of Firebase as database.
-> * Proyecto Personal
+> * _Proyecto Personal_
 >
 >   Android Studio project to manage the the sale of tickets for a movie in a summer cinema.
 > 
