@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "923617351195",
+    "firebase_url": "https://cinematics-883f5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cinematics-883f5",
+    "storage_bucket": "cinematics-883f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923617351195:android:3a11722a9de05496e20abe",
+        "android_client_info": {
+          "package_name": "com.example.proyectopersonal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsrVxxaH7Hh1ugkq2RjvHcCFNWRtitbR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

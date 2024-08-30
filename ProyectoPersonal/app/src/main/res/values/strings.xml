@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProyectoPersonal</string>
+    <string name="cinematics">CINEMATICS</string>
+    <string name="registrate">REGISTER NOW AND WIN ...</string>
+    <string name="promocion">¡¡¡ A DOUBLE TICKET + 2 FREE POPCORN BUCKETS !!!</string>
+    <string name="usuario">USER</string>
+    <string name="registrarse">REGISTER</string>
+    <string name="contrasena">PASSWORD</string>
+    <string name="bienvenida">¡¡¡ WELCOME TO CINEMATICS !!!</string>
+    <string name="eleccion">CHOOSE THE MOVIE</string>
+    <string name="titanic">TITANIC</string>
+    <string name="grease">GREASE</string>
+    <string name="disfrute">¡¡¡ ENJOY THE MOVIE !!!</string>
+    <string name="tickets">x 2</string>
+    <string name="palomitas">x 2</string>
+    <string name="volver">RETURN</string>
+    <string name="butacas">Number of seats</string>
+</resources>

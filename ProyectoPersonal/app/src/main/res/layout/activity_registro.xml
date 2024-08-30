@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/kemilash"
+        android:gravity="center"
+        android:text="@string/cinematics"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="289dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/kemilash"
+        android:gravity="center"
+        android:text="@string/bienvenida"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/kemilash"
+        android:gravity="center"
+        android:text="@string/eleccion"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="121dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/kemilash"
+        android:gravity="center"
+        android:text="@string/titanic"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/kemilash"
+        android:gravity="center"
+        android:text="@string/grease"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/img_titanic"
+        android:layout_width="157dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="cupon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.092"
+        app:srcCompat="@drawable/peli1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/img_grease"
+        android:layout_width="138dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="51dp"
+        android:onClick="cupon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_titanic"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/peli2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
