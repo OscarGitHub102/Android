@@ -30,8 +30,13 @@ Android Studio project to manage a film reservation app with the use of Firebase
 ## Funcionalidades
 
 1. **Registro e inicio de sesión**: Acceso a la aplicación.
-2. **Cartelera**:
-3. ****
+2. **Inicio**: Información general de los productos que se ofrecen.
+3. **Cartelera**: Detalles de las películas a elegir.
+4. **Comida**: Información de los alimentos (aperitivos, bebidas y postres) a escoger.
+5. **Promociones**: Explicación de los diferentes descuentos y promociones.
+6. **Reserva**: Realización de la reserva con los datos necesarios y su posterior descarga de la entrada.
+7. **Ubicación**: Localización del cine.
+8. **Desconectar**: Cierre de sesión y vuelta al registro o inicio de sesión.
 
 ---
 
