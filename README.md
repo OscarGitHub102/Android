@@ -12,7 +12,7 @@ Android Studio project to manage a film reservation app with the use of Firebase
 - **Android Studio**: Entorno de desarrollo integrado oficial para la plataforma Android.
 - **Firebase Firestore Cloud**: Base de datos NoSQL alojada en la nube que permite el almacenamiento y sincronización de datos entre usuarios.
 - **Firebase Authentication**: Sistema de autenticación que proporciona la propia base de datos.
-- **Interfaz de Usuario (XML)**: RecyclerView, Navigation Drawer, ViewPager, CardView, TextInputLayout, AutoCompleteTextView (entre otros componentes).
+- **Interfaz de Usuario (XML)**: Navigation Drawer, ViewPager, RecyclerView, CardView, TextInputLayout, AutoCompleteTextView (entre otros componentes).
 - **Librerías Adicionales**: Picasso (carga de imágenes), Toasty (notificaciones personalizadas), Material Components, AtomicInteger, HtmlConverter (creación de entrada).
 
 
