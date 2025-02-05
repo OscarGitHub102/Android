@@ -1,4 +1,4 @@
-# **Cinematics: Aplicación de Cine** 
+# **Cinematics: Aplicación Móvil de Cine** 
 🎞🎬
 Android Studio project to manage a film reservation app with the use of Firebase as database.
 
@@ -15,7 +15,15 @@ Android Studio project to manage a film reservation app with the use of Firebase
 - **Interfaz de Usuario (XML)**: Navigation Drawer, ViewPager, RecyclerView, CardView, TextInputLayout, AutoCompleteTextView (entre otros componentes).
 - **Librerías Adicionales**: Picasso (carga de imágenes), Toasty (notificaciones personalizadas), Material Components, AtomicInteger, HtmlConverter (creación de entrada).
 
+---
 
+## Estructura del proyecto
+
+- **Java**: Parte lógica del proyecto.
+  - **Actividades**: SplashActivity (pantalla de carga), MainActivity, LogInActivity (inicio de sesión) y SignInActivity (registro).
+  - **Paquete Fragments**: Manejo de los fragmentos ordenadamente.
+  - **Paquete Models**: Contiene las clases que representan las entidades del proyecto.
+- **Resources (Res)**: Parte visual del proyecto, diseño de layouts y contenido multimedia utilizado entre otros.
 
 [![Miniatura](https://private-user-images.githubusercontent.com/128926508/409991993-c078afa5-7e00-497a-97d0-5f6630da33f9.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg3NjAyMzksIm5iZiI6MTczODc1OTkzOSwicGF0aCI6Ii8xMjg5MjY1MDgvNDA5OTkxOTkzLWMwNzhhZmE1LTdlMDAtNDk3YS05N2QwLTVmNjYzMGRhMzNmOS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwNVQxMjUyMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMDVhYWUyZjFhOWM0OTFkZjM2MTA3NmIzMjg1ZmI0NWVjYTJkM2FlZDcwNjQyYWY4NWEwMzBhOTNmMjUwN2MzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.cuCbpjCDkvno2HN6n3K1LIafI_bd2pg_bc5xkIVomaM)](https://github.com/user-attachments/assets/db545423-4bfc-48c0-bd5d-c0f37ac8c217)
 
