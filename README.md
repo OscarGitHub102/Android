@@ -16,3 +16,7 @@ Android Studio project to manage the the sale of tickets for a movie in a summer
 </br>
 
  ***THE DATA USED IN THIS REPOSITORY ARE INVENTED***
+
+
+[![Texto Alternativo](https://drive.google.com/file/d/1s8E1T1VCRX44uQzEFkqnUVze8OiWpl9S/view?usp=drive_link)](https://github.com/user-attachments/assets/db545423-4bfc-48c0-bd5d-c0f37ac8c217)
+https://drive.google.com/file/d/1s8E1T1VCRX44uQzEFkqnUVze8OiWpl9S/view?usp=drive_link
